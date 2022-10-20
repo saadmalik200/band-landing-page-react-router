@@ -16,7 +16,18 @@ function SingleBand({ bands }) {
           <ul className="flex justify-center gap-[5rem] mt-[3rem]">
             {bands.map((item, i) => {
               return (
-                <NavLink key={i} to={"/bands/" + item.name}>
+                <NavLink
+                  style={({ isActive }) =>
+                    isActive
+                      ? {
+                          color: "purple",
+                          fontWeight: "bold",
+                        }
+                      : undefined
+                  }
+                  key={i}
+                  to={"/bands/" + item.name}
+                >
                   <li>
                     <p className="text-center text-[2rem] mt-3">
                       {" "}
