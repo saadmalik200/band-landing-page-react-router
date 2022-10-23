@@ -1,6 +1,7 @@
 {
   "name": "create-blog",
   "version": "0.1.0",
+  "homepage": "https://saadmalik200.github.io/band-landing-page-react-router",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
