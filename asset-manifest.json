@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/band-landing-page-react-router/static/css/main.b00056e4.css",
-    "main.js": "/band-landing-page-react-router/static/js/main.69d1d92d.js",
+    "main.js": "/band-landing-page-react-router/static/js/main.32d92d01.js",
     "index.html": "/band-landing-page-react-router/index.html",
     "main.b00056e4.css.map": "/band-landing-page-react-router/static/css/main.b00056e4.css.map",
-    "main.69d1d92d.js.map": "/band-landing-page-react-router/static/js/main.69d1d92d.js.map"
+    "main.32d92d01.js.map": "/band-landing-page-react-router/static/js/main.32d92d01.js.map"
   },
   "entrypoints": [
     "static/css/main.b00056e4.css",
-    "static/js/main.69d1d92d.js"
+    "static/js/main.32d92d01.js"
   ]
 }
