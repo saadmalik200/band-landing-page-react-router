@@ -38,6 +38,7 @@ const bands = [
 ];
 function BandFinder() {
   const [imgArr, setImgArr] = useState([]);
+
   return (
     <BrowserRouter>
       <Routes>
@@ -47,6 +48,7 @@ function BandFinder() {
         />
         <Route path="/" element={<Bands bands={bands} imgArr={imgArr} />} />
         <Route path="/bands/:name" element={<SingleBand bands={bands} />} />
+        <Route path="*" element={<Bands bands={bands} imgArr={imgArr} />} />
       </Routes>
     </BrowserRouter>
   );

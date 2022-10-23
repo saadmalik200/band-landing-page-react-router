@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 function Bands({ bands, imgArr }) {
-  console.log("img Arr", imgArr[0]);
-
+  console.log("Hello");
   return (
     <div className="bg-black text-white h-screen">
       <div>
